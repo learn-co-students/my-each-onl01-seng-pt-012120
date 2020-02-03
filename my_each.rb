@@ -2,11 +2,11 @@
 #   # code here
 # end
 
-def my_each(day)
+def my_each(sunday)
   count = 0
-  while count < day.length
-  yield day[count]
+  while count < sunday.length
+  yield sunday[count]
   count +=1
 end
-return day
+return sunday
 end
